@@ -26,7 +26,7 @@ async function fetchingData() {
     }
 }
 
-//making elements for diffferent type of time
+//making elements for different type of time
 
 //changing data to daily information
 function dailyChange() {
