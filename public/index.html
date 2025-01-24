@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,118 +12,120 @@
     <title>Frontend Mentor | Time tracking dashboard</title>
 
 </head>
+
 <body>
-<div id="container">
+    <div id="container">
 
-    <section id="profile"> <!--information about person-->
+        <section id="profile"> <!--information about person-->
 
-        <div>
-            <div id="profilePicture">
-                <img src="./images/image-jeremy.png">
-            </div>
-            <p class="grayText">
-                Report for
-            </p>
-            <div id="name">
-                Jeremy Robson
-            </div>
-        </div>
-
-        <div class="typeOfTimes grayText"> <!-- type of time-->
-            <p>Daily</p>
-            <p>Weekly</p>
-            <p>Monthly</p>
-        </div>
-
-    </section>
-    <section id="activities"> <!-- activities and time of them-->
-
-        <div class="card work">
-            <header class="icon">
-<!--                <img src="./images/icon-work.svg">-->
-            </header>
-            <div>
-                <div>
-                    <span>Work</span>
-                    <i class="fa-solid fa-ellipsis"></i>
+            <div class="profileInformation">
+                <div id="profilePicture">
+                    <img src="./images/image-jeremy.png">
                 </div>
-                <p class="activitiesTime">32hrs</p>
-                <p class="grayText">Last week - <span>36hrs</span></p>
-            </div>
-        </div>
-
-        <div class="card play">
-            <header class="icon">
-<!--                <img src="./images/icon-play.svg">-->
-            </header>
-            <div>
-                <div>
-                    <span>Play</span>
-                    <i class="fa-solid fa-ellipsis"></i>
+                <p class="grayText">
+                    Report for
+                </p>
+                <div id="name">
+                    Jeremy Robson
                 </div>
-                <p class="activitiesTime">10hrs</p>
-                <p class="grayText">Last week - <span>8hrs</span></p>
             </div>
-        </div>
 
-        <div class="card study">
-            <header class="icon">
-<!--                <img src="./images/icon-study.svg">-->
-            </header>
-            <div>
+            <div class="typeOfTimes grayText"> <!-- type of time-->
+                <p>Daily</p>
+                <p>Weekly</p>
+                <p>Monthly</p>
+            </div>
+
+        </section>
+        <section id="activities"> <!-- activities and time of them-->
+
+            <div class="card work">
+                <header class="icon">
+                    <!--                <img src="./images/icon-work.svg">-->
+                </header>
                 <div>
-                    <span>Study</span>
-                    <i class="fa-solid fa-ellipsis"></i>
+                    <div>
+                        <span>Work</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p class="activitiesTime">32hrs</p>
+                    <p class="grayText">Last week - <span>36hrs</span></p>
                 </div>
-                <p class="activitiesTime">4hrs</p>
-                <p class="grayText">Last week - <span>7hrs</span></p>
             </div>
-        </div>
 
-        <div class="card exercise">
-            <header class="icon">
-<!--                <img src="./images/icon-exercise.svg">-->
-            </header>
-            <div>
+            <div class="card play">
+                <header class="icon">
+                    <!--                <img src="./images/icon-play.svg">-->
+                </header>
                 <div>
-                    <span>Exercise</span>
-                    <i class="fa-solid fa-ellipsis"></i>
+                    <div>
+                        <span>Play</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p class="activitiesTime">10hrs</p>
+                    <p class="grayText">Last week - <span>8hrs</span></p>
                 </div>
-                <p class="activitiesTime">4hrs</p>
-                <p class="grayText">Last week - <span>5hrs</span></p>
             </div>
-        </div>
 
-        <div class="card social">
-            <header class="icon">
-<!--                <img src="./images/icon-social.svg">-->
-            </header>
-            <div>
+            <div class="card study">
+                <header class="icon">
+                    <!--                <img src="./images/icon-study.svg">-->
+                </header>
                 <div>
-                    <span>Social</span>
-                    <i class="fa-solid fa-ellipsis"></i>
+                    <div>
+                        <span>Study</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p class="activitiesTime">4hrs</p>
+                    <p class="grayText">Last week - <span>7hrs</span></p>
                 </div>
-                <p class="activitiesTime">5hrs</p>
-                <p class="grayText">Last week - <span>10hrs</span></p>
             </div>
-        </div>
 
-        <div class="card selfCare">
-            <header class="icon">
-<!--                <img src="./images/icon-self-care.svg">-->
-            </header>
-            <div>
+            <div class="card exercise">
+                <header class="icon">
+                    <!--                <img src="./images/icon-exercise.svg">-->
+                </header>
                 <div>
-                    <span>Self care</span>
-                    <i class="fa-solid fa-ellipsis"></i>
+                    <div>
+                        <span>Exercise</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p class="activitiesTime">4hrs</p>
+                    <p class="grayText">Last week - <span>5hrs</span></p>
                 </div>
-                <p class="activitiesTime">2hrs</p>
-                <p class="grayText">Last week - <span>2hrs</span></p>
             </div>
-        </div>
 
-    </section>
-</div>
-<script src="script.js"></script>
+            <div class="card social">
+                <header class="icon">
+                    <!--                <img src="./images/icon-social.svg">-->
+                </header>
+                <div>
+                    <div>
+                        <span>Social</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p class="activitiesTime">5hrs</p>
+                    <p class="grayText">Last week - <span>10hrs</span></p>
+                </div>
+            </div>
+
+            <div class="card selfCare">
+                <header class="icon">
+                    <!--                <img src="./images/icon-self-care.svg">-->
+                </header>
+                <div>
+                    <div>
+                        <span>Self care</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <p class="activitiesTime">2hrs</p>
+                    <p class="grayText">Last week - <span>2hrs</span></p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
